@@ -34,7 +34,7 @@ export default class TSP {
     this._onstop = onstop
   }
 
-  makeRandomNodes (n = 32, life_count = 100) {
+  makeRandomNodes (n=10, life_count = 100) {
     this.is_running = false
     this.n = n
     this.life_count = life_count
